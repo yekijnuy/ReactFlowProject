@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    { "id": "1", "type": "survey", "position": { "x": 0, "y": 50 }, "data": { "label": "Survey_2015\n10 rules applied" }},
+    { "id": "1-folder", "type": "folder", "position": { "x": -60, "y": 85 }, "data": { "label": "", "icon": "folder" }},
+    
+    { "id": "2", "type": "process", "position": { "x": 150, "y": 76 }, "data": { "label": "Join", "rules": "" }},
+    { "id": "3", "type": "dataset", "position": { "x": 300, "y": 50 }, "data": { "label": "Joineddataset\n10 rules applied" }},
+    { "id": "3-output", "type": "folder", "position": { "x": 450, "y": 185 }, "data": { "label": "Amazon RDS", "icon": "amazon" }},
+
+    { "id": "4", "type": "survey", "position": { "x": 0, "y": 150 }, "data": { "label": "Survey_2016\n10 rules applied" }},
+    { "id": "4-folder", "type": "folder", "position": { "x": -60, "y": 185 }, "data": { "label": "", "icon": "folder" }},
+    
+    { "id": "5", "type": "survey", "position": { "x": 0, "y": 250 }, "data": { "label": "Survey_2017\n10 rules applied" }},
+    { "id": "5-google", "type": "folder", "position": { "x": -60, "y": 285 }, "data": { "label": "", "icon": "google drive" }},
+
+    { "id": "6", "type": "process", "position": { "x": 150, "y": 276 }, "data": { "label": "Append", "rules": "" }},
+    { "id": "7", "type": "dataset", "position": { "x": 300, "y": 250 }, "data": { "label": "Appenddata\n10 rules applied" }},
+    { "id": "7-output", "type": "folder", "position": { "x": 450, "y": 285 }, "data": { "label": "Folder", "icon": "folder" }},
+    
+    { "id": "8", "type": "process", "position": { "x": 450, "y": 76 }, "data": { "label": "Pivot", "rules": "" }},
+    { "id": "9", "type": "dataset", "position": { "x": 585, "y": 50 }, "data": { "label": "Pivotdataset\n10 rules applied" }},
+    { "id": "9-output", "type": "folder", "position": { "x": 725, "y": 85 }, "data": { "label": "Folder", "icon": "folder" }}
+  ],
+  "edges": [
+    { "id": "e1-2", "source": "1", "target": "2", "type": "bezier","markerStart": { "type": "arrowopen" },"markerEnd": { "type": "arrowclosed" }, "animated": "", "style": { "stroke": "green", "strokeWidth": 2 } },
+    { "id": "e2-3", "source": "2", "target": "3", "type": "bezier","markerStart": { "type": "arrowopen" },"markerEnd": { "type": "arrowclosed" }, "animated": "true", "style": { "stroke": "green", "strokeWidth": 2 } },
+    { "id": "e3-8", "source": "3", "target": "8", "type": "bezier","markerStart": { "type": "arrowopen" },"markerEnd": { "type": "arrowclosed" }, "animated": "", "style": { "stroke": "green", "strokeWidth": 2 } },
+    { "id": "e3-3output", "source": "3", "target": "3-output", "type": "bezier","markerStart": { "type": "arrowopen" },"markerEnd": { "type": "arrowclosed" }, "animated": "true", "style": { "stroke": "red", "strokeWidth": 2 } },
+    { "id": "e4-2", "source": "4", "target": "2", "type": "bezier","markerStart": { "type": "arrowopen" },"markerEnd": { "type": "arrowclosed" }, "animated": "", "style": { "stroke": "green", "strokeWidth": 2 } },
+    { "id": "e4-6", "source": "4", "target": "6", "type": "bezier","markerStart": { "type": "arrowopen" },"markerEnd": { "type": "arrowclosed" }, "animated": "", "style": { "stroke": "green", "strokeWidth": 2 } },
+    { "id": "e5-6", "source": "5", "target": "6", "type": "bezier","markerStart": { "type": "arrowopen" },"markerEnd": { "type": "arrowclosed" }, "animated": "", "style": { "stroke": "green", "strokeWidth": 2 } },
+    { "id": "e6-7", "source": "6", "target": "7", "type": "bezier","markerStart": { "type": "arrowopen" },"markerEnd": { "type": "arrowclosed" }, "animated": "true", "style": { "stroke": "green", "strokeWidth": 2 } },
+    { "id": "e7-7output", "source": "7", "target": "7-output", "type": "bezier","markerStart": { "type": "arrowopen" },"markerEnd": { "type": "arrowclosed" }, "animated": "", "style": { "stroke": "green", "strokeWidth": 2 } },
+    { "id": "e8-9", "source": "8", "target": "9", "type": "bezier","markerStart": { "type": "arrowopen" },"markerEnd": { "type": "arrowclosed" }, "animated": "true", "style": { "stroke": "green", "strokeWidth": 2 } },
+    { "id": "e9-9output", "source": "9", "target": "9-output", "type": "bezier","markerStart": { "type": "arrowopen" },"markerEnd": { "type": "arrowclosed" }, "animated": "", "style": { "stroke": "green", "strokeWidth": 2 } }
+  ],
+  "errors": [
+    { "id": "3-output", "errorMessage": "Export of 'Pivoted dataset' to Amazon RDS failed. Column data type does not match with your database." }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "pipelineName": "New pipeline1",
+  "status": "Failed",
+  "duration": "00:00:20",
+  "runBy": "Alan Francis",
+  "storageUsed": "300 MB",
+  "totalRowsProcessed": "1M",
+  "startTime": "25 Jan, 2024 6:20 AM",
+  "endTime": "25 Jan, 2024 6:21 PM",
+  "dataInterval": "11 Sep, 2024 6:20 PM to 25 Jan, 2024 6:20 PM"
+}

@@ -1,0 +1,51 @@
+.custom-node-dataset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-wrapper-dataset {
+    background-color: #898ebd;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.node-icon-dataset {
+    color: white;
+}
+
+.node-label-dataset {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sub-label-dataset {
+    font-size: 10px;
+    color: #767676;
+    text-align: center;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.error-icon-dataset {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    animation: blink 1s infinite;
+}

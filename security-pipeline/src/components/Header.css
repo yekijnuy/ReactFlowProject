@@ -1,0 +1,46 @@
+.custom-header {
+  background-color: #001f3f !important;
+  border: none;
+}
+
+.home-icon {
+  background-color: #29a19c !important;
+  padding-left: 1em !important;
+}
+
+.home-icon .home-outlined {
+  position: relative;
+  color: white !important;
+}
+
+.home-icon span {
+  color: white !important;
+  margin-left: 0.5em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.menu-item-survey span {
+    font-size: 18px;
+    color: white;
+}
+
+.custom-header .menu > .item {
+  color: white !important;
+}
+
+.custom-header .menu > .item .icon {
+  color: #767676 !important;
+}
+
+.custom-header .menu > .item:hover .icon {
+  color: white !important;
+}
+
+.custom-header .menu > .dropdown .icon {
+  color: white !important;
+}
+
+.custom-header .menu > .dropdown .menu {
+  background-color: #001f3f !important;
+}

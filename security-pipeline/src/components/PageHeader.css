@@ -1,0 +1,88 @@
+.page-header {
+    width: 100vw;
+    padding: 15px 20px;
+    background-color: #f9fafb;
+    border-bottom: 1px solid #e0e0e0;
+    margin-top: -20px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.back-icon-wrapper {
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-icon {
+    font-size: 16px;
+    color: #333;
+}
+
+.job-summary-title {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.close-icon {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.tabs-and-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.custom-tabs {
+    display: flex;
+}
+
+.tab-item {
+    margin-right: 20px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #767676;
+}
+
+.tab-item.active {
+    color: #2185d0;
+    border-bottom: 2px solid #2185d0;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.download-link {
+    color: #4183c4;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.download-link:hover {
+    text-decoration: underline;
+}
+
+.retry-btn {
+    margin-right: 20px;
+}
