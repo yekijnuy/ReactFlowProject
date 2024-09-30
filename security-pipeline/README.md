@@ -142,6 +142,3 @@ Example:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-I've converted the content to Markdown format and placed it in an artifact. The Markdown version includes proper headings, code blocks, and formatting. You can now easily use this README.md file for your Pipeline Flow Visualization App project.
-
-Is there anything specific you'd like me to explain or modify in the Markdown version?
