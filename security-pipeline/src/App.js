@@ -4,7 +4,7 @@ import PageHeader from "./components/PageHeader";
 import JobSummarySection from "./components/JobSummarySection";
 import PipelineFlow from "./components/PipelineFlow";
 
-import jobData from "./fixtures/jobData.json"; // Import the JSON file
+import jobData from "./fixtures/jobData.json";
 import "./App.css";
 
 function App() {
@@ -16,8 +16,6 @@ function App() {
           <PageHeader jobData={jobData} />
         </div>
         <JobSummarySection jobData={jobData} />
-
-        {/* Add the PipelineFlow component here */}
         <div style={{ padding: "2em 0" }}>
           <PipelineFlow />
         </div>

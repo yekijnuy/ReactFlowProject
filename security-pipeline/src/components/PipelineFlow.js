@@ -15,7 +15,7 @@ import CustomNodeFolder from "../components/customNodes/CustomNodeFolder";
 import pipelineData from "../fixtures/pipelineData.json";
 import CustomEdge from "../components/CustomEdge";
 import ErrorsList from "./ErrorsList";
-// Register Custom Nodes
+
 const nodeTypes = {
   survey: CustomNodeSurvey,
   process: CustomNodeProcess,

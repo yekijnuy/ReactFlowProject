@@ -1,7 +1,6 @@
 import { Icon } from "semantic-ui-react";
 import "./ErrorsList.css";
 
-// Error Section Component for displaying error dynamically
 const ErrorsList = ({ selectedError }) => {
   return (
     <div style={{ width: "30%", paddingLeft: 20 }}>

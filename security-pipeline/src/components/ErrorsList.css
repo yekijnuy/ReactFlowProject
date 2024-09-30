@@ -3,16 +3,11 @@
     justify-content: center;
     align-items: center;
     border: 2px solid #d8a09e;
-    /* Red outline */
     border-radius: 50%;
-    /* Makes it a circle */
     padding: 5px;
-    /* Adjust for the desired size */
     margin-right: 10px;
-    /* Adds space between the icon and text */
     position: relative;
     top: -2px;
-    /* Moves the icon up slightly to center it vertically */
 }
 
 .circle-icon-errors-list .icon {
